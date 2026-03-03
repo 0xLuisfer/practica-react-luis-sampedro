@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Lionel Messi",
+        "pais": "Argentina",
+        "edad": 38,
+        "equipo": "Inter Miami CF"
+    },
+    {
+        "id": 2,
+        "nombre": "Cristiano Ronaldo",
+        "pais": "Portugal",
+        "edad": 41,
+        "equipo": "Al-Nassr FC"
+    },
+    {
+        "id": 3,
+        "nombre": "Antoine Griezmann",
+        "pais": "Francia",
+        "edad": 34,
+        "equipo": "Atlético de Madrid"
+    },
+    {
+        "id": 4,
+        "nombre": "Neymar Jr",
+        "pais": "Brasil",
+        "edad": 34,
+        "equipo": "Santos FC"
+    },
+    {
+        "id": 5,
+        "nombre": "Lamine Yamal",
+        "pais": "España",
+        "edad": 18,
+        "equipo": "FC Barcelona"
+    },
+    {
+        "id": 6,
+        "nombre": "Julian Alvarez",
+        "pais": "Argentina",
+        "edad": 26,
+        "equipo": "Atlético de Madrid"
+    }
+]
