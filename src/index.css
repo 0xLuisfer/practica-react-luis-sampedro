@@ -55,3 +55,7 @@ input {
   color: black;
   text-align: center;
 }
+
+table {
+  margin:0 auto;
+}

@@ -23,9 +23,34 @@ function ButtonComponent() {
 
     return (
         <>
-            <button onClick={mostrarInfo}>Listar todos los jugadores</button>
+            <button onClick={mostrarInfo}>Jugadores y equipos</button><br /><br />
             {/* Transformamos a texto, sin ninguna función adicional (null) y con indentación de 2 */}
-            <pre>{JSON.stringify(info, null, 2)}</pre>
+            {info ? (
+                <table border="1" cellPadding="5">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>País</th>
+                            <th>Equipo</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {info.map((jugador) => (
+                            <tr key={jugador}>
+                                <td>{jugador.id}</td>
+                                <td>{jugador.nombre}</td>
+                                <td>{jugador.pais}</td>
+                                <td>{jugador.equipo}</td>
+                                <td>{jugador.edad}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            ):(
+                <p>↑ Pulse el botón ↑</p>
+            )}
         </>
     );
 }
