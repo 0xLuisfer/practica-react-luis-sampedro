@@ -28,12 +28,9 @@ function BuscadorJugador() {
 
     return (
         <>
-            <p>
-                Introduce el nombre de algún jugador tal y como está en los datos (se ignoran mayúsculas y minúsculas).
-            </p>
-            <input
-                type="text" placeholder="Ej: 'Lionel Messi'" value={nombre} onChange={(e) => setNombre(e.target.value)}
-            />
+            <p>Escribe el nombre de un jugador tal como aparece en los datos. No importa si usas mayúsculas o minúsculas.</p>
+
+            <input type="text" placeholder="Ej: 'Lionel Messi'" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
             <br /><br />
             <button onClick={() => setBuscar(true)}>Buscar</button>
             
