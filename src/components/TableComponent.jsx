@@ -1,7 +1,7 @@
 import { useState } from "react";
 import datos from "../datos.json";
 
-function ButtonComponent() {
+function TableComponent() {
 
     // estado para volver a renderizar el componente cuando se pulsa el botón
     const [info, actualizarInfo] = useState();
@@ -31,9 +31,7 @@ function ButtonComponent() {
                         <tr>
                             <th>Id</th>
                             <th>Nombre</th>
-                            <th>País</th>
                             <th>Equipo</th>
-                            <th>Edad</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -41,9 +39,7 @@ function ButtonComponent() {
                             <tr key={jugador}>
                                 <td>{jugador.id}</td>
                                 <td>{jugador.nombre}</td>
-                                <td>{jugador.pais}</td>
                                 <td>{jugador.equipo}</td>
-                                <td>{jugador.edad}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -55,4 +51,4 @@ function ButtonComponent() {
     );
 }
 
-export default ButtonComponent;
+export default TableComponent;

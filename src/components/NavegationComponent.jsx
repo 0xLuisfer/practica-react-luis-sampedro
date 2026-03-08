@@ -8,6 +8,9 @@ function NavegationComponent() {
             <nav className="header">
                 <ul className="header-list">
                     <li>
+                        <ul><Link to="/informacionProyecto">INFORMACIÓN PROYECTO</Link></ul>
+                    </li>
+                    <li>
                         <ul><Link to="/">EQUIPOS Y JUGADORES</Link></ul>
                     </li>
                     <li>
@@ -15,9 +18,6 @@ function NavegationComponent() {
                     </li>
                     <li>
                         <ul><Link to="/listarJugadores">LISTAR INFO JUGADORES</Link></ul>
-                    </li>
-                    <li>
-                        <ul>Texto3</ul>
                     </li>
                 </ul>
             </nav>

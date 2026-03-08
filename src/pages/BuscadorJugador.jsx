@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import datos from "../datos.json";
-import NavegationComponent from "./NavegationComponent";
+import NavegationComponent from '../components/NavegationComponent';
 
 function BuscadorJugador() {
     const [nombre, setNombre] = useState(""); // lo que escribe el usuario

@@ -1,8 +1,9 @@
-import ButtonComponent from './components/ButtonComponent';
+import TableComponent from './components/TableComponent';
 import NavegationComponent from './components/NavegationComponent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ListaJugadores from './pages/ListaJugadores'
-import BuscadorJugador from './components/BuscadorJugador';
+import BuscadorJugador from './pages/BuscadorJugador';
+import InformacionProyecto from './pages/InformacionProyecto';
 import './App.css'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Route path='/' element= {
           <>
             <NavegationComponent></NavegationComponent>
-            <ButtonComponent></ButtonComponent>
+            <TableComponent></TableComponent>
           </>
         }/>
 
@@ -21,6 +22,7 @@ function App() {
         {/** Otras rutas */}
         <Route path="/listarJugadores" element={<ListaJugadores />} />
         <Route path="/buscarJugador" element={<BuscadorJugador />} />
+        <Route path="/informacionProyecto" element={<InformacionProyecto />} />
       </Routes>
     </BrowserRouter>
   )
