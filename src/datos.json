@@ -11,34 +11,132 @@
         "nombre": "Cristiano Ronaldo",
         "pais": "Portugal",
         "edad": 41,
-        "equipo": "Al-Nassr FC"
+        "equipo": "Al‑Nassr FC"
     },
     {
         "id": 3,
+        "nombre": "Kylian Mbappé",
+        "pais": "Francia",
+        "edad": 27,
+        "equipo": "Real Madrid"
+    },
+    {
+        "id": 4,
+        "nombre": "Erling Haaland",
+        "pais": "Noruega",
+        "edad": 24,
+        "equipo": "Manchester City"
+    },
+    {
+        "id": 5,
         "nombre": "Antoine Griezmann",
         "pais": "Francia",
         "edad": 34,
         "equipo": "Atlético de Madrid"
     },
     {
-        "id": 4,
-        "nombre": "Neymar Jr",
-        "pais": "Brasil",
-        "edad": 34,
-        "equipo": "Santos FC"
-    },
-    {
-        "id": 5,
+        "id": 6,
         "nombre": "Lamine Yamal",
         "pais": "España",
         "edad": 18,
         "equipo": "FC Barcelona"
     },
     {
-        "id": 6,
-        "nombre": "Julian Alvarez",
-        "pais": "Argentina",
-        "edad": 26,
-        "equipo": "Atlético de Madrid"
+        "id": 7,
+        "nombre": "Jude Bellingham",
+        "pais": "Inglaterra",
+        "edad": 21,
+        "equipo": "Real Madrid"
+    },
+    {
+        "id": 8,
+        "nombre": "Bukayo Saka",
+        "pais": "Inglaterra",
+        "edad": 24,
+        "equipo": "Arsenal"
+    },
+    {
+        "id": 9,
+        "nombre": "Rodri",
+        "pais": "España",
+        "edad": 24,
+        "equipo": "Manchester City"
+    },
+    {
+        "id": 10,
+        "nombre": "Fermín López",
+        "pais": "España",
+        "edad": 23,
+        "equipo": "FC Barcelona"
+    },
+    {
+        "id": 11,
+        "nombre": "Pau Cubarsí",
+        "pais": "España",
+        "edad": 19,
+        "equipo": "FC Barcelona"
+    },
+    {
+        "id": 12,
+        "nombre": "Kendry Páez",
+        "pais": "Ecuador",
+        "edad": 19,
+        "equipo": "Chelsea"
+    },
+    {
+        "id": 13,
+        "nombre": "Estevão Willian",
+        "pais": "Brasil",
+        "edad": 19,
+        "equipo": "Chelsea"
+    },
+    {
+        "id": 14,
+        "nombre": "João Neves",
+        "pais": "Portugal",
+        "edad": 21,
+        "equipo": "SL Benfica"
+    },
+    {
+        "id": 15,
+        "nombre": "Michael Olise",
+        "pais": "Francia",
+        "edad": 22,
+        "equipo": "Bayern Munich"
+    },
+    {
+        "id": 16,
+        "nombre": "Arda Güler",
+        "pais": "Turquía",
+        "edad": 20,
+        "equipo": "Real Madrid"
+    },
+    {
+        "id": 17,
+        "nombre": "Rodrygo",
+        "pais": "Brasil",
+        "edad": 24,
+        "equipo": "Real Madrid"
+    },
+    {
+        "id": 18,
+        "nombre": "Raphinha",
+        "pais": "Brasil",
+        "edad": 27,
+        "equipo": "FC Barcelona"
+    },
+    {
+        "id": 19,
+        "nombre": "Gabriel Jesus",
+        "pais": "Brasil",
+        "edad": 27,
+        "equipo": "Arsenal"
+    },
+    {
+        "id": 20,
+        "nombre": "Marco Asensio",
+        "pais": "España",
+        "edad": 30,
+        "equipo": "Fenerbahçe SK"
     }
 ]

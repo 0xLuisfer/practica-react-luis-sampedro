@@ -2,7 +2,7 @@ import TableComponent from './components/TableComponent';
 import NavegationComponent from './components/NavegationComponent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ListaJugadores from './pages/ListaJugadores'
-import BuscadorJugador from './pages/BuscadorJugador';
+import BusquedaJugador from './pages/BusquedaJugador';
 import InformacionProyecto from './pages/InformacionProyecto';
 import './App.css'
 
@@ -13,16 +13,15 @@ function App() {
     <Routes>
         <Route path='/' element= {
           <>
-            <NavegationComponent></NavegationComponent>
-            <TableComponent></TableComponent>
+            <InformacionProyecto></InformacionProyecto>
           </>
         }/>
 
 
         {/** Otras rutas */}
         <Route path="/listarJugadores" element={<ListaJugadores />} />
-        <Route path="/buscarJugador" element={<BuscadorJugador />} />
-        <Route path="/informacionProyecto" element={<InformacionProyecto />} />
+        <Route path="/buscarJugador" element={<BusquedaJugador />} />
+        <Route path="/tablaJugadores" element={<TableComponent />} />
       </Routes>
     </BrowserRouter>
   )

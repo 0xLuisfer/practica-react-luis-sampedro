@@ -1,4 +1,3 @@
-import React from 'react';
 import NavegationComponent from '../components/NavegationComponent';
 
 function InformacionProyecto() {

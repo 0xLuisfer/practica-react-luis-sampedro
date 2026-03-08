@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import datos from "../datos.json";
-import NavegationComponent from '../components/NavegationComponent';
 
 function BuscadorJugador() {
     const [nombre, setNombre] = useState(""); // lo que escribe el usuario
@@ -29,7 +28,6 @@ function BuscadorJugador() {
 
     return (
         <>
-            <NavegationComponent />
             <p>
                 Introduce el nombre de algún jugador tal y como está en los datos (se ignoran mayúsculas y minúsculas).
             </p>

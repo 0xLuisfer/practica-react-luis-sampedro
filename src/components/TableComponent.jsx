@@ -1,5 +1,6 @@
 import { useState } from "react";
 import datos from "../datos.json";
+import NavegationComponent from "./NavegationComponent";
 
 function TableComponent() {
 
@@ -23,6 +24,7 @@ function TableComponent() {
 
     return (
         <>
+            <NavegationComponent></NavegationComponent>
             <button onClick={mostrarInfo}>Jugadores y equipos</button><br /><br />
             {/* Renderización condicional */}
             {info ? (

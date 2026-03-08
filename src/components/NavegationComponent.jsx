@@ -7,11 +7,12 @@ function NavegationComponent() {
             <h2>Práctica React - LUIS SAMPEDRO</h2>
             <nav className="header">
                 <ul className="header-list">
+                    {/** Links a diferentes páginas */}
                     <li>
-                        <ul><Link to="/informacionProyecto">INFORMACIÓN PROYECTO</Link></ul>
+                        <ul><Link to="/">INFORMACIÓN PROYECTO</Link></ul>
                     </li>
                     <li>
-                        <ul><Link to="/">EQUIPOS Y JUGADORES</Link></ul>
+                        <ul><Link to="/tablaJugadores">EQUIPOS Y JUGADORES</Link></ul>
                     </li>
                     <li>
                         <ul><Link to="/buscarJugador">BUSCAR MANUALMENTE</Link></ul>
