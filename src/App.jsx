@@ -2,6 +2,7 @@ import ButtonComponent from './components/ButtonComponent';
 import NavegationComponent from './components/NavegationComponent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ListaJugadores from './pages/ListaJugadores'
+import BuscadorJugador from './components/BuscadorJugador';
 import './App.css'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
 
         {/** Otras rutas */}
         <Route path="/listarJugadores" element={<ListaJugadores />} />
-        
+        <Route path="/buscarJugador" element={<BuscadorJugador />} />
       </Routes>
     </BrowserRouter>
   )

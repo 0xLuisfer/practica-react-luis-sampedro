@@ -11,7 +11,7 @@ function NavegationComponent() {
                         <ul><Link to="/">EQUIPOS Y JUGADORES</Link></ul>
                     </li>
                     <li>
-                        <ul>BUSCAR MANUALMENTE</ul>
+                        <ul><Link to="/buscarJugador">BUSCAR MANUALMENTE</Link></ul>
                     </li>
                     <li>
                         <ul><Link to="/listarJugadores">LISTAR INFO JUGADORES</Link></ul>

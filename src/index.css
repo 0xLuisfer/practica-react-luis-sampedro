@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #06576b;
   text-decoration: inherit;
 }
 a:hover {
@@ -53,4 +53,13 @@ table {
 
 table td {
   padding: 20px;
+}
+
+input {
+  background-color: #fcf5b5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: black;
+  border: solid black 1px
 }

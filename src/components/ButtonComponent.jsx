@@ -24,7 +24,7 @@ function ButtonComponent() {
     return (
         <>
             <button onClick={mostrarInfo}>Jugadores y equipos</button><br /><br />
-            {/* Transformamos a texto, sin ninguna función adicional (null) y con indentación de 2 */}
+            {/* Renderización condicional */}
             {info ? (
                 <table border="1" cellPadding="5">
                     <thead>
