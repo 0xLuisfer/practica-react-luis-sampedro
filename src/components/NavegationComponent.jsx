@@ -1,19 +1,20 @@
 import "./NavegationComponent.css"
+import { Link } from "react-router-dom";
 
 function NavegationComponent() {
     return (
-        <header>
+        <header className="headerComponent">
             <h2>Práctica React - LUIS SAMPEDRO</h2>
             <nav className="header">
                 <ul className="header-list">
                     <li>
-                        <ul>Texto1</ul>
+                        <ul><Link to="/">EQUIPOS Y JUGADORES</Link></ul>
                     </li>
                     <li>
-                        <ul>Texto2</ul>
+                        <ul>BUSCAR MANUALMENTE</ul>
                     </li>
                     <li>
-                        <ul>Texto3</ul>
+                        <ul><Link to="/listarJugadores">LISTAR INFO JUGADORES</Link></ul>
                     </li>
                     <li>
                         <ul>Texto3</ul>

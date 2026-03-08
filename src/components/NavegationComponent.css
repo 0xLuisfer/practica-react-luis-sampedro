@@ -1,5 +1,10 @@
-.header {
-    background-color: rgb(134, 195, 236);
+.headerComponent {
+    background-color: rgb(234, 236, 134);
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    margin: 20px;
+
 }
 
 .header-list {
